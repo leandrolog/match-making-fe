@@ -5,9 +5,11 @@ const SideBar = () => {
     return (
         <div className="sidebar">
             <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
+                <p className="sidebar-title">
+                    <Link to="/">
+                        <h2>Sportfy</h2>
+                    </Link>
+                </p>
                 <li>
                     <Link to="/match">Match</Link>
                 </li>

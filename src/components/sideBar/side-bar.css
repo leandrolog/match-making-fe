@@ -3,6 +3,14 @@ body {
     display: flex;
 }
 
+.sidebar-title h2 {
+    color: white;
+    border-bottom: none;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20%;
+}
+
 .sidebar {
     width: 250px;
     background-color: #333;
@@ -32,4 +40,3 @@ body {
 .sidebar ul li a:hover {
     color: #ff9900;
 }
-
